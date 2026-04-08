@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disallow: /User-agent: SemrushBotUser-agent: AhrefsBotUser-agent: MJ12bot# Restrições de User-Agents indesejados (opcional)Crawl-delay: 1# Delay em milissegundos entre requestsSitemap: https://rodrigositeesuporte.com.br/sitemap.xmlDisallow: 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Rodrigo Eduardo — Sites & Suporte Técnico | Portfólio</title>
+  <meta name="description"
+    content="Portfólio de Rodrigo Eduardo, desenvolvedor de sites e suporte técnico. Crio sites modernos e ofereço serviços de manutenção de computadores em Barreiros-PE." />
+  <meta name="keywords"
+    content="desenvolvedor web, suporte técnico, manutenção de computadores, portfólio, Rodrigo Eduardo, Barreiros, Pernambuco, HTML, CSS, JavaScript, Node.js, site profissional, site para psicólogo, site para advogado, site para profissionais da saúde" />
+  <meta name="author" content="Rodrigo Eduardo De Almeida" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://rodrigositeesuporte.com.br/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rodrigositeesuporte.com.br/" />
+  <meta property="og:title" content="Rodrigo Eduardo — Desenvolvedor Web & Suporte Técnico" />
+  <meta property="og:description"
+    content="Portfólio profissional de Rodrigo Eduardo. Desenvolvimento web moderno e suporte técnico especializado para seu negócio." />
+  <meta property="og:image" content="https://rodrigositeesuporte.com.br/image/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="image/logo.png" />
+  <link rel="apple-touch-icon" href="image/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body itemscope itemtype="https://schema.org/Person">
+  <!-- Header -->
+  <header>
+    <!-- ════════════════════ NAVBAR ════════════════════ -->
+    <nav id="navbar" role="navigation" aria-label="Menu principal">
+      <div class="max-container nav-inner">
+        <a href="#home" class="nav-logo" aria-label="Ir para o início da página">
+          <span>R</span>rodrigositeesuporte
+        </a>
+
+        <ul class="nav-links" role="menubar">
+          <li role="none"><a href="#home" class="active" data-section="home" role="menuitem">Home</a></li>
+          <li role="none"><a href="#sobre" data-section="sobre" role="menuitem">Sobre</a></li>
+          <li role="none"><a href="#servicos" data-section="servicos" role="menuitem">Serviços</a></li>
+          <li role="none"><a href="#contato" data-section="contato" role="menuitem">Contato</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button id="theme-btn" aria-label="Alternar entre tema claro e escuro" aria-pressed="false">☀️</button>
+          <a href="#contato" class="btn-primary nav-cta">Contato</a>
+          <button id="hamburger" aria-label="Abrir menu mobile" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-drawer" class="max-container" role="menu" aria-label="Menu mobile">
+        <a href="#home" class="active" data-mobile-section="home" onclick="closeMobileMenu()" role="menuitem">Home</a>
+        <a href="#sobre" data-mobile-section="sobre" onclick="closeMobileMenu()" role="menuitem">Sobre</a>
+        <a href="#servicos" data-mobile-section="servicos" onclick="closeMobileMenu()" role="menuitem">Serviços</a>
+        <a href="#contato" data-mobile-section="contato" onclick="closeMobileMenu()" role="menuitem">Contato</a>
+        <a href="#contato" class="btn-primary" onclick="closeMobileMenu()" role="button">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- ════════════════════ HERO ════════════════════ -->
+    <section id="home" aria-labelledby="hero-title">
+      <div class="hero-orb-1" aria-hidden="true"></div>
+      <div class="hero-orb-2" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <div class="max-container hero-content">
+        <div class="availability-badge">
+          <span class="badge-dot" aria-hidden="true">
+            <span class="badge-dot-inner"></span>
+            <span class="badge-dot-ring"></span>
+          </span>
+          Disponível para projetos
+        </div>
+
+        <h1 id="hero-title">
+          Desenvolvedor<br>
+          <span class="typed-word" id="typed-text" aria-live="polite"></span><span class="cursor"
+            aria-hidden="true"></span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Transformo ideias em experiências digitais incríveis.
+          De sites a suporte técnico, estou aqui para levar seu projeto ao próximo nível.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#servicos" class="btn-primary">
+            Ver projetos
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="#sobre" class="btn-outline">Sobre mim</a>
+        </div>
+      </div>
+
+      <a href="#sobre" aria-label="Rolar para a seção Sobre" class="scroll-indicator">
+        <span class="scroll-dot" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ════════════════════ ABOUT ════════════════════ -->
+    <section id="sobre" aria-labelledby="about-title">
+      <div class="max-container">
+        <div class="about-grid">
+
+          <!-- Left -->
+          <div>
+            <span class="section-label">Sobre mim</span>
+            <h2 id="about-title" class="about-title">Sites que elevarão seu negócio. Suporte técnico que você pode
+              confiar.</h2>
+            <p class="about-text">
+              Sou <span itemprop="name">Rodrigo Eduardo</span>, estudante de <span itemprop="hasOccupation" itemscope
+                itemtype="https://schema.org/Occupation">
+                <span itemprop="name">Análise e Desenvolvimento de Sistemas</span>
+              </span>. Desde criança, procurei entender como os computadores funcionam e, a partir daí, comecei a me
+              interessar por tecnologia. No ensino médio, sem nenhum conhecimento prévio, desbloqueei um notebook antigo
+              e consegui fazê-lo funcionar.
+              Foi nesse momento que percebi que queria aprender mais sobre o assunto. Hoje, com experiência em
+              desenvolvimento web e suporte técnico (voltado para softwares), estou criando o <span
+                class="highlight">rodrigositeesuporte</span>, que une a criação de sites para negócios locais ao suporte
+              técnico de qualidade — tudo com um toque pessoal e atenção aos detalhes.
+            </p>
+            <p class="about-text">
+              Acredito que um bom site é aquele que atrai, engaja e converte em clientes. Também defendo que suporte
+              técnico de qualidade é essencial para manter tudo funcionando perfeitamente.
+            </p>
+            <a href="#contato" class="btn-primary">Vamos conversar</a>
+          </div>
+
+          <!-- Right: photo -->
+          <div class="photo-wrapper">
+            <div class="photo-frame">
+              <img src="image/photo-perfil.jpeg"
+                alt="Foto profissional de Rodrigo Eduardo De Almeida, desenvolvedor web e especialista em suporte técnico"
+                class="photo-image" itemprop="image" width="320" height="427" loading="lazy">
+              <span class="corner corner-tl" aria-hidden="true"></span>
+              <span class="corner corner-tr" aria-hidden="true"></span>
+              <span class="corner corner-bl" aria-hidden="true"></span>
+              <span class="corner corner-br" aria-hidden="true"></span>
+            </div>
+            <div class="photo-info">
+              <p class="photo-name" itemprop="name">Rodrigo Eduardo De Almeida</p>
+              <p class="photo-role" itemprop="jobTitle">Desenvolvedor Web & Suporte Técnico</p>
+            </div>
+            <span class="location-badge" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+              📍 <span itemprop="addressLocality">Barreiros</span> — <span itemprop="addressRegion">PE</span>
+            </span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════ SERVICES ════════════════════ -->
+    <section id="servicos" aria-labelledby="services-title">
+      <div class="max-container">
+
+        <!-- Header -->
+        <div class="services-header">
+          <div>
+            <span class="section-label">Serviços</span>
+            <h2 id="services-title" class="section-title">O que eu faço</h2>
+          </div>
+          <p class="services-desc">
+            Do planejamento ao lançamento — entrego soluções completas com qualidade e prazo cumprido.
+          </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+          <div class="card-base" itemscope itemtype="https://schema.org/Service">
+            <span class="service-icon" aria-hidden="true">⚡</span>
+            <h3 class="service-title" itemprop="name">Desenvolvimento Web</h3>
+            <p class="service-desc" itemprop="description">Aplicações web modernas para elevar o seu negócio.</p>
+            <meta itemprop="provider" content="Rodrigo Eduardo" />
+          </div>
+          <div class="card-base" itemscope itemtype="https://schema.org/Service">
+            <span class="service-icon" aria-hidden="true">🛠️</span>
+            <h3 class="service-title" itemprop="name">Revisão Técnica no seu computador</h3>
+            <p class="service-desc" itemprop="description">Formatação, limpeza e otimização do seu sistema.</p>
+            <meta itemprop="provider" content="Rodrigo Eduardo" />
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section-projects-header">
+          <span class="section-label">Projetos</span>
+          <h2 class="section-title">Trabalhos em destaque</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card project-1" itemscope itemtype="https://schema.org/SoftwareApplication">
+            <div class="project-accent-bar" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-status">Produção</span>
+              <h3 class="project-title" itemprop="name">Cadastro de usuários</h3>
+              <p class="project-desc" itemprop="description">Este projeto é uma aplicação web desenvolvida para simular
+                um sistema de cadastro de clientes. Ele demonstra a criação de uma API RESTful completa (CRUD) integrada
+                a um front-end responsivo.</p>
+              <div class="project-tags" itemprop="applicationCategory">
+                <span class="chip">HTML5</span>
+                <span class="chip">Bootstrap</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Express</span>
+                <span class="chip">PostgreSQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/rodrigo-ed/Cadastro-de-usuario" class="btn-sm btn-sm-primary" itemprop="url" rel="noopener noreferrer" target="_blank">
+                  Ver projeto
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+                <a href="https://github.com/rodrigo-ed/Cadastro-de-usuario" class="btn-sm btn-sm-outline"
+                  rel="noopener noreferrer" target="_blank">
+                  Repositório
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card project-2" itemscope itemtype="https://schema.org/SoftwareApplication">
+            <div class="project-accent-bar" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-status">Produção</span>
+              <h3 class="project-title" itemprop="name">Dashboard</h3>
+              <p class="project-desc" itemprop="description">Este é um projeto de dashboard completo construído com
+                Next.js, seguindo o curso oficial "Learn Next.js" da Vercel.</p>
+              <div class="project-tags" itemprop="applicationCategory">
+                <span class="chip">Next.js</span>
+                <span class="chip">React</span>
+                <span class="chip">Tailwind CSS</span>
+                <span class="chip">Vercel</span>
+                <span class="chip">TypeScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://nextjs-dashboard-rho-ochre-65.vercel.app/" class="btn-sm btn-sm-primary" itemprop="url"
+                  rel="noopener noreferrer" target="_blank">
+                  Ver projeto
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+                <a href="https://github.com/rodrigo-ed/nextjs-dashboard" class="btn-sm btn-sm-outline"
+                  rel="noopener noreferrer" target="_blank">
+                  Repositório
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card project-3" itemscope itemtype="https://schema.org/SoftwareApplication">
+            <div class="project-accent-bar" aria-hidden="true"></div>
+            <div class="project-body">
+              <span class="project-status">Produção</span>
+              <h3 class="project-title" itemprop="name">Meu portfólio</h3>
+              <p class="project-desc" itemprop="description">Este projeto é o próprio portfólio que você está
+                visualizando, desenvolvido com Next.js e Tailwind CSS. Ele serve como uma vitrine dos meus serviços e
+                projetos, demonstrando minhas habilidades em desenvolvimento web e design responsivo.</p>
+              <div class="project-tags" itemprop="applicationCategory">
+                <span class="chip">Next.js</span>
+                <span class="chip">React</span>
+                <span class="chip">Tailwind CSS</span>
+                <span class="chip">Vercel</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://portfolio-nine-delta-ex00bxws7w.vercel.app/" class="btn-sm btn-sm-primary"
+                  itemprop="url" rel="noopener noreferrer" target="_blank">
+                  Ver projeto
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+                <a href="https://github.com/rodrigo-ed/my-portfolio" class="btn-sm btn-sm-outline"
+                  rel="noopener noreferrer" target="_blank">
+                  Repositório
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════ CONTACT ════════════════════ -->
+    <section id="contato" aria-labelledby="contact-title">
+      <div class="max-container">
+        <div class="contact-grid">
+
+          <!-- Left info -->
+          <div>
+            <span class="section-label">Contato</span>
+            <h2 id="contact-title" class="contact-title">Fale comigo!</h2>
+            <p class="contact-subtitle">
+              Estou aberto a novos projetos, parcerias e oportunidades. Me envie uma mensagem e responderei em até 24
+              horas.
+            </p>
+
+            <div class="contact-info-list">
+              <a href="mailto:rodrigositeesuporte@gmail.com" class="contact-info-item" itemprop="email">
+                <div class="contact-icon" aria-hidden="true">✉️</div>
+                <div>
+                  <span class="contact-label">Email</span>
+                  <span class="contact-value">rodrigositeesuporte@gmail.com</span>
+                </div>
+              </a>
+              <a href="https://wa.me/5581991246738" class="contact-info-item" rel="noopener noreferrer" target="_blank">
+                <div class="contact-icon" aria-hidden="true">📱</div>
+                <div>
+                  <span class="contact-label">WhatsApp</span>
+                  <span class="contact-value">+55 (81) 9 9124-6738</span>
+                </div>
+              </a>
+              <div class="contact-info-item">
+                <div class="contact-icon" aria-hidden="true">📍</div>
+                <div>
+                  <span class="contact-label">Localização</span>
+                  <span class="contact-value" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                    <span itemprop="addressLocality">Barreiros</span> — <span itemprop="addressRegion">PE</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/rodrigo-ed" class="social-link" rel="noopener noreferrer" target="_blank"
+                aria-label="Visitar perfil no GitHub">
+                <span class="social-abbr">GH</span> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/rodrigoalmeidaads/" class="social-link" rel="noopener noreferrer"
+                target="_blank" aria-label="Visitar perfil no LinkedIn">
+                <span class="social-abbr">LI</span> LinkedIn
+              </a>
+              <a href="https://www.instagram.com/rodrigositeesuporte/" class="social-link" rel="noopener noreferrer"
+                target="_blank" aria-label="Visitar perfil no Instagram">
+                <span class="social-abbr">IT</span> Instagram
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: form -->
+          <div class="form-card">
+            <!-- Success state (hidden) -->
+            <div id="success-state" class="success-state" style="display:none;" role="alert" aria-live="polite">
+              <div class="success-icon" aria-hidden="true">✅</div>
+              <h3 class="success-title">Mensagem enviada!</h3>
+              <p class="success-text">Obrigado pelo contato. Responderei em breve.</p>
+              <button class="btn-outline" onclick="resetForm()">Enviar outra mensagem</button>
+            </div>
+
+            <!-- Form -->
+            <div id="form-wrapper">
+              <h3 class="form-title">Envie uma mensagem</h3>
+              <form id="contact-form" novalidate role="form" aria-labelledby="form-title">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="name">Nome *</label>
+                    <input id="name" name="name" type="text" placeholder="Seu nome" required class="form-input"
+                      aria-required="true" />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email *</label>
+                    <input id="email" name="email" type="email" placeholder="seu@email.com" required class="form-input"
+                      aria-required="true" />
+                  </div>
+                </div>
+                <div class="form-group-full">
+                  <label class="form-label" for="message">Mensagem *</label>
+                  <textarea id="message" name="message" rows="6" placeholder="Conte um pouco sobre o seu projeto..."
+                    required class="form-input" aria-required="true"></textarea>
+                </div>
+                <button type="submit" id="submit-btn" class="btn-primary submit-btn" aria-describedby="submit-text">
+                  <span id="submit-text">Enviar mensagem</span>
+                  <svg id="submit-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13" />
+                    <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                  </svg>
+                  <span id="submit-spinner" class="spinner" style="display:none;" aria-hidden="true"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ════════════════════ FOOTER ════════════════════ -->
+  <footer role="contentinfo">
+    <div class="max-container footer-inner">
+      <div class="footer-logo"><span>R</span>rodrigositeesuporte</div>
+      <p class="footer-copy" id="footer-year"></p>
+      <a href="#home" class="footer-top" aria-label="Voltar ao topo da página">↑ Topo</a>
+    </div>
+  </footer>
+
+  <!-- ════════════════════ SCRIPTS ════════════════════ -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
