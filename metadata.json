@@ -1,0 +1,6 @@
+{
+  "name": "Rodrigo Soluções Digitais",
+  "description": "Criação de sites e sistemas web, suporte técnico de computadores e consultoria para aquisição de hardware para pessoas físicas e empresas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
